@@ -101,13 +101,13 @@ The final model architecture (model.py lines 47-59) consisted of a convolution n
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-[image2]
+![image2]
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to go back to center if deviates from center. These images show what a recovery looks like starting from left-of-lane to center-of-lane :
 
-[image3]
-[image4]
-[image5]
+![image3]
+![image4]
+![image5]
 
 After the collection process, I had 3 number of data points. I then preprocessed this data by normilizing (0-255 to -0.5-+0.5) image pixels.
 I also cropped images to ignore top 50 pixels ( comprised of mostly 'sky' and hill-tops ) and bottom 20 pixels ( comprised of car hood ).
